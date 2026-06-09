@@ -1,0 +1,8 @@
+{
+  "INT1001": { "name": "Tin học cơ sở 1", "credits": 2, "prerequisites": [] },
+  "MAT1092": { "name": "Giải tích 1", "credits": 3, "prerequisites": [] },
+  "MAT1093": { "name": "Giải tích 2", "credits": 3, "prerequisites": ["MAT1092"] },
+  "INT2203": { "name": "Cấu trúc dữ liệu và giải thuật", "credits": 3, "prerequisites": ["INT1001"] },
+  "INT2204": { "name": "Toán rời rạc", "credits": 3, "prerequisites": [] },
+  "INT3105": { "name": "Trí tuệ nhân tạo", "credits": 3, "prerequisites": ["INT2203", "INT2204"] }
+}
